@@ -1,6 +1,9 @@
 # MechaCar Statistical Analysis
 This project investigates the production data utilizing R programming for statistical modeling and hypothesis testing that could give further insight to the manufacturing team with its production troubles in developing AutosRUs' newest prototype, the MechaCar.
 
+**Resources:**
+[MechaCarChallenge.Rscript](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
+
 ## Linear Regression to Predict MPG
 1) A **linear regression** using the `lm()` function was first ran to pass in all six variables from `mechacar_df` *(the dataframe generated from the MechaCar_mpg.csv file)*
 > **`lm()` function to determine correlation to mpg:** 
@@ -11,9 +14,9 @@ This project investigates the production data utilizing R programming for statis
 > **`summary()` function of Linear Regression:** 
 ![summary_linear_regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/summary_linear_regression.png)
 
-***- Ground clearance and vehicle length are the only variables that provide a non-random amount of variance to the mpg values in the dataset.***
+***- Ground clearance and vehicle length are the only variables that provide a non-random amount of variance to the mpg values in the dataset***
 
-***- The slope of the linear model is not considered to be zero because the low p-value below 0.05 indicates there is evidence that the coefficient has statistical significance where the slope is significantly different than zero.***
+***- The slope of the linear model is not considered to be zero because the low p-value below 0.05 indicates there is evidence that the coefficient has statistical significance where the slope is significantly different than zero***
 
 ***- This linear model predicts the mpg of MechaCar prototypes with moderate correlation strength based on the r-squared value falling in range 0.5&le;r&le;0.7***
 
@@ -37,15 +40,15 @@ A **one-sample t-test** was used *(because comparing a dataframe to a population
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png)
 
 ---
-Subsequently for each individual manufacturing lot, the <code>t.test()</code> function and its <code>subset()</code> argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.   
+Subsequently for each individual manufacturing lot, the <code>t.test()</code> function and its <code>subset()</code> argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
 
-> **t-test of lot 1:**
+> **T-test of lot 1:**
 ![t-test of lot 1](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot1.png) 
 ---
-> **t-test of lot 2:**  
+> **T-test of lot 2:**  
 ![t-test of lot 2](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot2.png) 
 ---
-> **t-test of lot 3:**  
+> **T-test of lot 3:**  
 ![t-test of lot 3](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot3.png) 
 ---
 
