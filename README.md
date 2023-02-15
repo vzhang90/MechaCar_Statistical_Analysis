@@ -7,15 +7,15 @@ This project investigates the production data utilizing R programming for statis
 ![linear regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png)
   
   
-2) Using the `summary()` function, the ***p-value*** and ***r-squared value*** can be determined from the linear regression model
+2) Using the `summary()` function, the **p-value** and **r-squared value** can be determined from the linear regression model
 > ***`summary()` function of Linear Regression:*** 
 ![summary_linear_regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/summary_linear_regression.png)
 
-Which variables/coefficients provided a non0random amount of variance to the mpg values in the data set.
+Ground clearance and vehicle length are the only variables that provide a non-random amount of variance to the mpg values in the dataset.
 
-The slope of the linear model is considered to be zero because
+The slope of the linear model is not considered to be zero because the low p-value below 0.05 indicates there is evidence that the coefficient has statistical significance where the slope is significantly different than zero.
 
-This linear model predicts the mpg of MechaCar prototypes effictevely because
+This linear model predicts the mpg of MechaCar prototypes with moderate correlation strength based on the r-squared value fallin in range 0.5&le;r&le;0.7
 
 
 ## Summary Statistics on Suspension Coils
