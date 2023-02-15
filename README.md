@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 This project investigates the production data utilizing R programming for statistical modeling and hypothesis testing that could give further insight to the manufacturing team with its production troubles in developing AutosRUs' newest prototype, the MechaCar.
 
 ## Linear Regression to Predict MPG
@@ -10,13 +10,13 @@ This linear model predicts the mpg of MechaCar prototypes effictevely because
 
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+***The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.***
 
-A total summary dataframe using the <code>summarize()</code> function to obtain the mean, median, variance, & standard deviation of the suspension coil's PSI column shown below:  
+1) A `total_summary` dataframe using the <code>summarize()</code> function to obtain the mean, median, variance, & standard deviation of the suspension coil's PSI column shown below:  
   
 > ![total_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
 
-A lot summary dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufcaturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
+2) A `lot_summary` dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufcaturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
  
 > ![lot_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
