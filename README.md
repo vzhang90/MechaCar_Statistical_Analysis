@@ -2,7 +2,7 @@
 This project investigates the production data utilizing R programming for statistical modeling and hypothesis testing that could give further insight to the manufacturing team with its production troubles in developing AutosRUs' newest prototype, the MechaCar.
 
 ## Linear Regression to Predict MPG
-1) A linear regression using the lm() function was first ran to pass in all six variables from `mechacar_df` **(the dataframe generated from the MechaCar_mpg.csv file)**
+1) A linear regression using the lm() function was first ran to pass in all six variables from `mechacar_df` *(the dataframe generated from the MechaCar_mpg.csv file)*
 > ***`lm()` function to determine correlation to mpg:*** 
 ![linear regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png)
   
