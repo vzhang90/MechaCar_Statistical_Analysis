@@ -41,7 +41,7 @@ A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical 
  
 > **T-test across all manufacturing lots:**
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png)
-***Because the calculated t-value of -1.8931 is less than the critical t-value 1.660&le;t<sub>crit</sub>&le;1.646 for 100-1,000 degreees of freedom for a p-value of 0.05, the null hypothesis cannot be rejected where this t-tests indicates no statistical difference between the mean PSI value across all manufacturing lots compared to the population mean of 1,500 lbs/sq in
+***Because the calculated t-value of -1.8931 is less than the critical t-value 1.660&le;t<sub>crit</sub>&le;1.646 for 100-1,000 degreees of freedom for a p-value of 0.05, the null hypothesis cannot be rejected where this t-tests indicates no statistical difference between the mean PSI value across all manufacturing lots compared to the population mean of 1,500 lbs/sq in***
 
 
 ---
