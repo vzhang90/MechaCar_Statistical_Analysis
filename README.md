@@ -2,12 +2,12 @@
 This project investigates the production data utilizing R programming for statistical modeling and hypothesis testing that could give further insight to the manufacturing team with its production troubles in developing AutosRUs' newest prototype, the MechaCar.
 
 ## Linear Regression to Predict MPG
-1) A linear regression using the lm() function was first ran to pass in all six variables from `mechacar_df` *(the dataframe generated from the MechaCar_mpg.csv file)*
+1) A **linear regression** using the `lm()` function was first ran to pass in all six variables from `mechacar_df` *(the dataframe generated from the MechaCar_mpg.csv file)*
 > ***`lm()` function to determine correlation to mpg:*** 
 ![linear regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png)
   
   
-2) Using the `summary()` function, the p-value and r-squared value can be determined from the linear regression model
+2) Using the `summary()` function, the ***p-value*** and ***r-squared value*** can be determined from the linear regression model
 > ***`summary()` function of Linear Regression:*** 
 ![summary_linear_regression](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/summary_linear_regression.png)
 
@@ -30,7 +30,8 @@ This linear model predicts the mpg of MechaCar prototypes effictevely because
 ***The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.***
 
 ## T-Tests on Suspension Coils
-A one-sample t-test was used *(because comparing a dataframe to a population mean vs a two-sample t-test comparing statistical significance between two data sets)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The mu parameter is set to 1500 to specify the null hypothesis that the population mean is 1500.
+A **one-sample t-test** was used *(because comparing a dataframe to a population mean vs a two-sample t-test comparing statistical significance between two data sets)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+- The mu parameter is set to 1500 to specify the null hypothesis that the population mean is 1500
  
 > ***T-test across all manufacturing lots:***
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png)
