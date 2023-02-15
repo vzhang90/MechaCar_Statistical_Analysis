@@ -33,11 +33,16 @@ This project investigates the production data utilizing R programming for statis
 ***The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.***
 
 ## T-Tests on Suspension Coils
-A **one-sample t-test** was used *(because comparing a dataframe to a population mean vs a two-sample t-test comparing statistical significance between two data sets)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
 - The mu parameter is set to 1500 to specify the null hypothesis that the population mean is 1500
+
+**Null Hypothesis:** H<sub>0</sub> : There is no statistical difference between the observed sample mean and its presumed population mean.
+**Alternative Hypothesis:** H<sub>a</sub> : There is a statistical difference between the observed sample mean and its presumed population mean.
  
 > **T-test across all manufacturing lots:**
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png)
+***Because the calculated t-value of -1.8931 is less than the critical t-value 1.660&le;t<sub>crit</sub>&le;1.646 for 100-1,000 degreees of freedom for a p-value of 0.05, the null hypothesis cannot be rejected where this t-tests indicates no statistical difference between the mean PSI value across all manufacturing lots compared to the population mean of 1,500 lbs/sq in
+
 
 ---
 Subsequently for each individual manufacturing lot, the <code>t.test()</code> function and its <code>subset()</code> argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
