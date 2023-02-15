@@ -30,7 +30,7 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
   
 ![t-test of lot 1](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot1.png) 
   
-![t-test of lot 2](https://github.com/vzhang90/MechaCar_Statistical_Analysis/commit/7a15288ced52f944d48760e194a8af09572fa95d) 
+![t-test of lot 2](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot2.png) 
   
 ![t-test of lot 3](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot3.png) 
 
