@@ -34,7 +34,6 @@ This project investigates the production data utilizing R programming for statis
 
 ## T-Tests on Suspension Coils
 A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch  
-
 **- Null Hypothesis:** H<sub>0</sub> : There is no statistical difference between the observed sample mean and its presumed population mean.  
 **- Alternative Hypothesis:** H<sub>a</sub> : There is a statistical difference between the observed sample mean and its presumed population mean.
  
