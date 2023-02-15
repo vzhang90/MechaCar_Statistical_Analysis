@@ -16,6 +16,7 @@ A total summary dataframe using the <code>summarize()</code> function to obtain 
 ![total_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
 
 A lot summary dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufcaturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
+ 
 ![lot_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.
