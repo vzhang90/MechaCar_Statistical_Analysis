@@ -19,7 +19,7 @@ This linear model predicts the mpg of MechaCar prototypes effictevely because
 
 
 ## Summary Statistics on Suspension Coils
-***The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch***
+<sub>The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch</sub>
 
 1) A `total_summary` dataframe using the <code>summarize()</code> function to obtain the mean, median, variance, & standard deviation of the suspension coil's PSI column shown below:  
 > ![total_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
@@ -27,7 +27,7 @@ This linear model predicts the mpg of MechaCar prototypes effictevely because
 2) A `lot_summary` dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufcaturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
 > ![lot_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
-The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.
+***The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.***
 
 ## T-Tests on Suspension Coils
 A one-sample t-test was used *(because comparing a dataframe to a population mean vs a two-sample t-test comparing statistical significance between two data sets)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The mu parameter is set to 1500 to specify the null hypothesis that the population mean is 1500.
