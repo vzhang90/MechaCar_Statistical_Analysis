@@ -33,7 +33,8 @@ This project investigates the production data utilizing R programming for statis
 ***The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.***
 
 ## T-Tests on Suspension Coils
-A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch  
+
 **- Null Hypothesis:** H<sub>0</sub> : There is no statistical difference between the observed sample mean and its presumed population mean.  
 **- Alternative Hypothesis:** H<sub>a</sub> : There is a statistical difference between the observed sample mean and its presumed population mean.
  
