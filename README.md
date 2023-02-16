@@ -66,7 +66,9 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 ---
 
 ## Study Design: MechaCar vs Competition
-Additional statistical studies can be performed to further quantify how the MechCar performs against the competition if more data compartmentalizing fuel efficiency between Highway and City MPG could be obtained as well as utilizing data of each company's total revenue to quantify consumer sentiment and EBITDA to infer competitor's balance sheet in promoting brand recognition vs R&D.  
+Additional statistical studies can be performed to further quantify how the MechCar performs against the competition if obtaining more data: 
+1) compartmentalizing fuel efficiency between Highway and City MPG 
+2) sales & total revenue of each competitor model to quantify consumer sentiment 3) company's balance sheet primarily based off EBITDA to infer focus in promoting brand recognition vs R&D  
 
 If investigating continuous data comparing the mean performance of car companies against competitors *(such as fuel efficiency rating)*, a **t-test** would be preferred to determine whether there is a statistical difference between average performance of different car companies. Furthermore, it could be used to discern the performance of MechaCar before and after implementing a new strategy.
 > *For example*: A two-sample t-test comparing MechaChar against competing model's Highway and City MPG   
