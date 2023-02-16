@@ -66,7 +66,7 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 ---
 
 ## Study Design: MechaCar vs Competition
-Additional statistical studies can be performed to further quantify how the MechCar performs against the competition if obtaining more data: 
+Additional statistical studies can be performed to further quantify how the MechCar vehicles perform against the competition if obtaining more data: 
 1) compartmentalizing fuel efficiency between Highway and City MPG 
 2) sales & total revenue of each competitor model to quantify consumer sentiment 3) company's balance sheet primarily based off EBITDA to infer focus in promoting brand recognition vs R&D  
 
