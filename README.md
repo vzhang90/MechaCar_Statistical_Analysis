@@ -34,8 +34,8 @@ This project investigates the production data utilizing R programming for statis
 
 ## T-Tests on Suspension Coils
 A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch  
-**- Null Hypothesis: H<sub>0</sub> :** There is no statistical difference between the observed PSI sample mean across all manufacturing lots and its presumed population mean of 1,500lbs/in<sup>2</sup>.  
-**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between the observed PSI sample mean across all manufacturing lots and its presumed population mean of 1,500lbs/in<sup>2</sup>.  
+**- Null Hypothesis: H<sub>0</sub> :** There is no statistical difference between the observed PSI sample mean across all manufacturing lots and its presumed population mean of 1,500lbs/in<sup>2</sup>  
+**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between the observed PSI sample mean across all manufacturing lots and its presumed population mean of 1,500lbs/in<sup>2</sup>  
  
 > **T-test across all manufacturing lots:**
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png) 
