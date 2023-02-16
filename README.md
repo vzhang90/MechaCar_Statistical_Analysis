@@ -27,7 +27,7 @@ This project investigates the production data utilizing R programming for statis
 1) A `total_summary` dataframe using the <code>summarize()</code> function to obtain the mean, median, variance, & standard deviation of the suspension coil's PSI column shown below:  
 > ![total_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
 
-2) A `lot_summary` dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufcaturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
+2) A `lot_summary` dataframe using the <code>group_by()</code> and the <code>summarize()</code> function to group each manufacturing lot by the mean median, variance, & standard deviation of the suspension coil's PSI column shown below:
 > ![lot_summary](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 ***The current manufacturing data meets this design specification for all manufacturing lots in total. However individually, only Lot 1 and 2 meet the requirement where the suspension coils must no exceed 100 lbs/sq in. Lot 3 does not meet this design specification with a larger variance at 170.286 lbs/sq in.***
@@ -40,7 +40,7 @@ A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical 
 > **T-test across all manufacturing lots:**
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png) 
 
-***Because the calculated t-value of -1.8931 is less than the critical t-value 1.660&le;t<sub>crit</sub>&le;1.646 for 100-1,000 degreees of freedom for a p-value of 0.05, the null hypothesis cannot be rejected where there is not enough evidence to support a statistical difference between the mean PSI value across all manufacturing lots compared to the population mean of 1,500 lbs/sq in***
+***Because the calculated t-value of -1.8931 is less than the one-tailed critical t-value 1.660&le;t<sub>crit</sub>&le;1.646 for 100-1,000 degrees of freedom for a p-value of 0.05, the null hypothesis cannot be rejected where there is not enough evidence to support a statistical difference between the mean PSI value across all manufacturing lots compared to the population mean of 1,500 lbs/sq in***
 
 
 ---
