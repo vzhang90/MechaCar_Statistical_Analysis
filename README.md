@@ -69,7 +69,7 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 Additional statistical studies can be performed to further quantify how the MechCar performs against the competition. 
 
 If investigating continuous data comparing the mean performance of car companies against competitors *(such as fuel efficiency rating)*, a **t-test** would be preferred to determine whether there is a statistical difference between average performance of different car companies. Furthermore, it could be used to discern the performance of MechaCar before and after implementing a new strategy.
-> For example: A two-sample t-test comparing MechaChar against competing model's Highway and City MPG 
+> For example: A two-sample t-test comparing MechaChar against competing model's Highway and City MPG   
 >**- Null Hypothesis: H<sub>0</sub> :** There is no statistical difference between MechaCar and the competitor's fuel efficiency  
 >**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between MechaCar and the competitor's fuel efficiency  
 
