@@ -48,12 +48,15 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 
 > **T-test of lot 1:**
 ![t-test of lot 1](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot1.png) 
+*** The mean PSI of manufacturing Lot 1 is not statistically different from the population mean of 1,500 lbs/in<sup>2</sup>***
 ---
 > **T-test of lot 2:**  
 ![t-test of lot 2](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot2.png) 
+*** There is not enough evidence to suggest the mean PSI of manufacturing Lot 2 is statistically different from the population mean of 1,500 lbs/in<sup>2</sup>***
 ---
 > **T-test of lot 3:**  
 ![t-test of lot 3](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot3.png) 
+*** The mean PSI of manufacturing Lot 3 is statistically different from the population mean of 1,500 lbs/in<sup>2</sup>***
 ---
 
 ## Study Design: MechaCar vs Competition
