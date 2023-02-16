@@ -34,8 +34,8 @@ This project investigates the production data utilizing R programming for statis
 
 ## T-Tests on Suspension Coils
 A **one-sample t-test** was used *(vs a two-sample t-test comparing statistical significance between two data sets because comparing one dataset sample mean to a population mean)* with the <code>t.test()</code> function on the PSI column of the suspension data to determine if the mean PSI value across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch  
-**- Null Hypothesis:** H<sub>0</sub> : There is no statistical difference between the observed sample mean and its presumed population mean.  
-**- Alternative Hypothesis:** H<sub>a</sub> : There is a statistical difference between the observed sample mean and its presumed population mean.
+**- Null Hypothesis: H<sub>0</sub> :** There is no statistical difference between the observed sample mean and its presumed population mean.  
+**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between the observed sample mean and its presumed population mean.
  
 > **T-test across all manufacturing lots:**
 ![T-test across all manufacturing lots](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_PSI_all_manufacturing_lots.png) 
@@ -68,6 +68,12 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 ## Study Design: MechaCar vs Competition
 Additional statistical studies can be performed to further quantify how the MechCar performs against the competition. 
 
-If investigating continuous data comparing the mean performance of car companies against competitors *(such as fuel efficiency rating)*, a **two-sample t-test** would be preferred to determine whether there is a statistical difference between average performance of different car companies. Furthermore, it could be used to discern the performance of MechaCar before and after implementing a new strategy.
+If investigating continuous data comparing the mean performance of car companies against competitors *(such as fuel efficiency rating)*, a **t-test** would be preferred to determine whether there is a statistical difference between average performance of different car companies. Furthermore, it could be used to discern the performance of MechaCar before and after implementing a new strategy.
+> For example: A two-sample t-test comparing MechaChar against competing model's Highway and City MPG 
+**- Null Hypothesis: H<sub>0</sub> :** There is no statistical difference between MechaCar and the competitor's fuel efficiency  
+**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between MechaCar and the competitor's fuel efficiency  
 
-On the other hand, if the data is categorical *(such as car model types)*, a **chi-squared test** would be the better method to determine if there is a significant association between two variables/proportions of car companies that meet certain criteria or have certain characteristics. In the context of car competitors, a chi-squared test could be used to determine if there is a significant association between a car company's perforamnce and its brand reputation. 
+On the other hand, if the data is categorical *(such as car model types)*, a **chi-squared test** would be the better method to determine if there is a significant association between two variables/proportions of car companies that meet certain criteria or have certain characteristics. In the context of car competitors, a chi-squared test could be used to determine if there is a significant association between a car company's performance and its brand reputation. 
+> For example: A chi-squared test comparing fuel efficiency and its brand reputation
+**- Null Hypothesis: H<sub>0</sub> :** There is no statistical association between fuel efficiency and brand reputation 
+**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between  fuel efficiency and brand reputation
