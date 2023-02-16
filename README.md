@@ -66,7 +66,7 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 ---
 
 ## Study Design: MechaCar vs Competition
-Additional statistical studies can be performed to further quantify how the MechCar performs against the competition. 
+Additional statistical studies can be performed to further quantify how the MechCar performs against the competition if more data compartmentalizing fuel efficiency between Highway and City MPG could be obtained.
 
 If investigating continuous data comparing the mean performance of car companies against competitors *(such as fuel efficiency rating)*, a **t-test** would be preferred to determine whether there is a statistical difference between average performance of different car companies. Furthermore, it could be used to discern the performance of MechaCar before and after implementing a new strategy.
 > *For example*: A two-sample t-test comparing MechaChar against competing model's Highway and City MPG   
@@ -75,5 +75,5 @@ If investigating continuous data comparing the mean performance of car companies
 
 On the other hand, if the data is categorical *(such as car model types)*, a **chi-squared test** would be the better method to determine if there is a significant association between two variables/proportions of car companies that meet certain criteria or have certain characteristics. In the context of car competitors, a chi-squared test could be used to determine if there is a significant association between a car company's performance and its brand reputation. 
 > *For example*: A chi-squared test comparing fuel efficiency and its brand reputation  
->**- Null Hypothesis: H<sub>0</sub> :** There is no statistical association between fuel efficiency and brand reputation  
->**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference between  fuel efficiency and brand reputation
+>**- Null Hypothesis: H<sub>0</sub> :** There is no difference in frequency distribution between fuel efficiency and brand reputation  
+>**- Alternative Hypothesis: H<sub>a</sub> :** There is a statistical difference in frequency distribution between  fuel efficiency and brand reputation
