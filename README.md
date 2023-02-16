@@ -61,7 +61,7 @@ Subsequently for each individual manufacturing lot, the <code>t.test()</code> fu
 > **T-test of lot 3:**  
 ![t-test of lot 3](https://github.com/vzhang90/MechaCar_Statistical_Analysis/blob/main/images/t.test_lot3.png) 
 
-***The mean PSI of manufacturing Lot 3 is statistically different from the population mean of 1,500 lbs/in<sup>2</sup>***
+***While the p-value is below 0.05, the calculated t-value of the mean PSI of manufacturing Lot 3 indicates there is not enough evidence to suggest lot 3 is statistically different from the population mean of 1,500 lbs/in<sup>2</sup>***
   
 ---
 
